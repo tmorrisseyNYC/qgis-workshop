@@ -1,7 +1,7 @@
 # qgis-workshop
 QGIS workshop
 
-Workshop Details:
+##Workshop Details:
 Feb 22-23 2016
 2 MetroTech Center
 DoITT
