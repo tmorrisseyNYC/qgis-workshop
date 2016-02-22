@@ -1,0 +1,256 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: University of Vermont Spatial Analysis Laboratory and New York City Urban Field Station
+      Publication_Date: 20120417
+      Title: New York City Landcover 2010 (3ft version)
+      Geospatial_Data_Presentation_Form: raster digital data
+      Online_Linkage: \\netfiles02.uvm.edu\salshare\Data_Projects\States\NYC\Data\LandCover\2010\landcover_2010_nyc_3ft.img
+  Description:
+    Abstract:
+      High resolution land cover data set for New York City.  This is the 3ft version of the high-resolution land cover dataset for New York City.  The "full" version has a 0.5ft resolution.  Seven land cover classes were mapped: (1) tree canopy, (2) grass/shrub, (3) bare earth, (4) water, (5) buildings, (6) roads, and (7) other paved surfaces.  The minimum mapping unit for the delineation of features was set at 3 square feet. 
+      The primary sources used to derive this land cover layer were the 2010 LiDAR and the 2008 4-band orthoimagery.  Ancillary data sources included GIS data (city boundary, building footprints, water, parking lots, roads, railroads, railroad structures, ballfields) provided by New York City (all ancillary datasets except railroads); UVM Spatial Analysis Laboratory manually created railroad polygons from manual interpretation of 2008 4-band orthoimagery.  The tree canopy class was considered current as of 2010; the remaining land-cover classes were considered current as of 2008.
+      Object-Based Image Analysis (OBIA) techniques were employed to extract land cover information using the best available remotely sensed and vector GIS datasets.  OBIA systems work by grouping pixels into meaningful objects based on their spectral and spatial properties, while taking into account boundaries imposed by existing vector datasets.  Within the OBIA environment a rule-based expert system was designed to effectively mimic the process of manual image analysis by incorporating the elements of image interpretation (color/tone, texture, pattern, location, size, and shape) into the classification process.  A series of morphological procedures were employed to insure that the end product is both accurate and cartographically pleasing.
+      More than 35,000 corrections were made to the classification.  Overall accuracy was 96%.
+    Purpose: This dataset was developed as part of the Urban Tree Canopy (UTC) Assessment for New York City.  As such, it represents a 'top down' mapping perspective in which tree canopy over hanging other features is assigned to the tree canopy class.  At the time of its creation this dataset represents the most detailed and accurate land cover dataset for the area.
+    Supplemental_Information: This project was funded by National Urban and Community Forestry Advisory Council (NUCFAC) and the National Science Fundation (NSF), although it is not specifically endorsed by either agency.  The methods used were developed by the University of Vermont Spatial Analysis Laboratory, in collaboration with the New York City Urban Field Station, with funding from the USDA Forest Service.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 20100414
+        Ending_Date: 20100501
+    Currentness_Reference: ground condition
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: None planned
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -74.260386
+      East_Bounding_Coordinate: -73.695214
+      North_Bounding_Coordinate: 40.917696
+      South_Bounding_Coordinate: 40.483620
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword: Land cover
+      Theme_Keyword: UTC
+      Theme_Keyword: Urban
+      Theme_Keyword: tree canopy
+    Place:
+      Place_Keyword_Thesaurus: None
+      Place_Keyword: New York City
+      Place_Keyword: New York
+    Temporal:
+      Temporal_Keyword_Thesaurus: None
+      Temporal_Keyword: 2010
+      Temporal_Keyword: 2008
+  Access_Constraints:
+    Must be granted by NYC Parks and Recreation
+    Contact Jacqueline Lu, Jacqueline.Lu@parks.nyc.gov, (718) 760-6597
+  Use_Constraints: None
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: University of Vermont Spatial Analysis Laboratory
+        Contact_Person: Jarlath O'Neil-Dunne
+      Contact_Position: Geospatial Analyst
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: 81 Carrigan Drive
+        Address: Aiken Room 220
+        City: Burlington
+        State_or_Province: VT
+        Postal_Code: 05405
+        Country: USA
+      Contact_Voice_Telephone: 802-656-3324
+      Contact_Facsimile_Telephone: 802-656-8683
+      Contact_Electronic_Mail_Address: joneildu@uvm.edu
+  Data_Set_Credit: University of Vermont Spatial Analysis Laboratory, in collaboration with the New York City Urban Field Station
+  Native_Data_Set_Environment: Microsoft Windows Vista Version 6.1 (Build 7601) Service Pack 1; ESRI ArcCatalog 9.3.1.4000
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report: This land-cover dataset was subjected to a thorough manual quality control (QC), and more than 35,000 corrections were ultimately incorporated into the final map.  A per-pixel accuracy assessment indicated an overall accuracy of 96%, with a kappa statistic of 0.95.  For this dataset, emphasis for corrections was focused on the tree canopy class.
+  Logical_Consistency_Report: Valid raster dataset.
+  Completeness_Report: Complete for New York City based on 2012 borough boundaries.
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report: Based on the source data (orthophotos and LiDAR).
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Publication_Date: April and June 2008
+          Title: Color infrared orthophotography
+      Source_Scale_Denominator: 1:1200
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 4/14/10-5/1/10 (LiDAR); April and June 2008 (4-band orthoimagery)
+        Source_Currentness_Reference: ground condition
+      Source_Citation_Abbreviation: Color infrared orthophotography
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Publication_Date: various
+          Title: Boroughs_includeWater (city boundary), Structures_2001 (building footprints), Hydro_Region_1995 (water), ParkingLots (parking lots), roads (Curb_Outline_1995), railroads (Railroad_Polys), railroad structures (Railroad_Structures), ParkInfo_DPR_Baseball (ballfields)
+      Source_Scale_Denominator: unknown
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: All New York City datasets obtained in October 2008; railroad polygons created by UVM Spatial Analysis Laboratory in October 2010
+        Source_Currentness_Reference: ground condition
+      Source_Citation_Abbreviation: Planimetric data
+      Source_Contribution: vector
+    Process_Step:
+      Process_Description: Object based image analysis (OBIA) using a rule-based expert system
+      Process_Date: 20111005
+    Process_Step:
+      Process_Description: Manual corrections to land cover classification
+    Process_Step:
+      Process_Description: Metadata imported.
+      Source_Used_Citation_Abbreviation: O:\Data_Projects\States\NYC\Data\LandCover\2010\Metdata\20111013_NYC2010_landcover_metadata.xml
+      Process_Date: 20111013
+      Process_Time: 12162600
+    Process_Step:
+      Process_Description: Metadata imported.
+      Source_Used_Citation_Abbreviation: O:\Data_Projects\States\NYC\Data\LandCover\2010\Metadata\LandCover_2010_NYC_metadata.xml
+      Process_Date: 20111209
+      Process_Time: 17525500
+    Process_Step:
+      Process_Description: Metadata imported.
+      Source_Used_Citation_Abbreviation: O:\Data_Projects\States\NYC\Data\LandCover\2010\Metadata\LandCover_2010_NYC_metadata_05ft.xml
+      Process_Date: 20120417
+      Process_Time: 12595600
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Raster
+  Raster_Object_Information:
+    Raster_Object_Type: Pixel
+    Row_Count: 316003
+    Column_Count: 312400
+    Vertical_Count: 1
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Map_Projection:
+        Map_Projection_Name: Lambert Conformal Conic
+        Lambert_Conformal_Conic:
+          Standard_Parallel: 40.666667
+          Standard_Parallel: 41.033333
+          Longitude_of_Central_Meridian: -74.000000
+          Latitude_of_Projection_Origin: 40.166667
+          False_Easting: 984250.000000
+          False_Northing: 0.000000
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: row and column
+        Coordinate_Representation:
+          Abscissa_Resolution: 0.500000
+          Ordinate_Resolution: 0.500000
+        Planar_Distance_Units: survey feet
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1983
+      Ellipsoid_Name: Geodetic Reference System 80
+      Semi-major_Axis: 6378137.000000
+      Denominator_of_Flattening_Ratio: 298.257222
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: Land Cover
+      Entity_Type_Definition: UTC
+    Attribute:
+      Attribute_Label: OID
+      Attribute_Definition: Internal feature number.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: Value
+      Attribute_Definition: Land cover code
+      Attribute_Definition_Source: UTC
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1
+          Enumerated_Domain_Value_Definition: Tree Canopy
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 2
+          Enumerated_Domain_Value_Definition: Grass/Shrub
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 3
+          Enumerated_Domain_Value_Definition: Bare Soil
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 4
+          Enumerated_Domain_Value_Definition: Water
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 5
+          Enumerated_Domain_Value_Definition: Buildings
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 6
+          Enumerated_Domain_Value_Definition: Roads/Railroads
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 7
+          Enumerated_Domain_Value_Definition: Other Paved Surfaces
+    Attribute:
+      Attribute_Label: Count
+      Attribute_Definition: # pixels per land cover class
+      Attribute_Definition_Source: Internal
+    Attribute:
+      Attribute_Label: Red
+    Attribute:
+      Attribute_Label: Green
+    Attribute:
+      Attribute_Label: Blue
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: Jacqueline Lu
+        Contact_Organization: New York City Parks & Recreation
+      Contact_Position: Director, Research & Analysis
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: Olmsted Center, Flushing Meadow Corona Park
+        City: New York City
+        State_or_Province: NY
+        Postal_Code: 11368
+      Contact_Voice_Telephone: (718) 760-6597
+      Contact_Electronic_Mail_Address: Jacqueline.Lu@parks.nyc.gov
+  Resource_Description: Please contact NYC Dept of Parks and Recreation for access.
+  Distribution_Liability: None
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: IMAGINE (.img)
+        Format_Specification: IMAGINE (.img) raster data
+        Transfer_Size: 95GB
+  Custom_Order_Process: None
+  Technical_Prerequisites: GIS or similar software capable of working with raster data in IMAGINE (.img) format.
+Metadata_Reference_Information:
+  Metadata_Date: 20111012
+  Metadata_Review_Date: 20120417
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: University of Vermont Spatial Analysis Laboratory
+        Contact_Person: Jarlath O'Neil-Dunne
+      Contact_Position: Geospatial Analyst
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: 81 Carrigan Drive
+        Address: Aiken Center Room 220
+        City: Burlington
+        State_or_Province: VT
+        Postal_Code: 05405
+        Country: USA
+      Contact_Voice_Telephone: 802-656-3324
+      Contact_Facsimile_Telephone: 802-656-8683
+      Contact_Electronic_Mail_Address: joneildu@uvm.edu
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: local time
+  Metadata_Access_Constraints: None
+  Metadata_Use_Constraints: None
+  Metadata_Extensions:
+    Online_Linkage: http://www.esri.com/metadata/esriprof80.html
+    Profile_Name: ESRI Metadata Profile
+  Metadata_Extensions:
+    Online_Linkage: http://www.esri.com/metadata/esriprof80.html
+    Profile_Name: ESRI Metadata Profile
